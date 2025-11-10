@@ -167,5 +167,5 @@ for (f in seq(100, 3000, by=10)) {
 }
 
 # First null frequency, single lobe array
-f=343/(2*0.25)  # freq = v / (N * d)
-res <- plot_array_pattern(N = 2, d = 0.25, freq = f)
+f1NULL = 343 / (2 * 0.25)  # freq = v / (2 * d)
+res <- plot_array_pattern(N = 2, d = 0.25, freq = f1NULL)
